@@ -1,0 +1,20 @@
+.root {
+    flex-grow: 1;
+}
+.appbar{
+    background-color: #0F4848 !important;
+}
+.menuButton {
+    margin-right: spacing(2);
+}
+.title {
+    flex-grow: 1;
+    text-align: center;
+    color: "#ffff"!important;
+}
+.link {
+    color: aliceblue !important;
+}
+.shoeicon {
+    height: 46;
+}
