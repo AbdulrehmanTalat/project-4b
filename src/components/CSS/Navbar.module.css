@@ -5,7 +5,8 @@
     background-color: #0F4848 !important;
 }
 .menuButton {
-    margin-right: spacing(2);
+    /* margin-right: spacing(2); */
+    left: 8%;
 }
 .title {
     flex-grow: 1;
@@ -13,6 +14,11 @@
     color: "#ffff"!important;
 }
 .link {
+    color: aliceblue !important;
+    padding-left: 10px;
+}
+.login_link{
+    padding-right: 8%;
     color: aliceblue !important;
 }
 .shoeicon {

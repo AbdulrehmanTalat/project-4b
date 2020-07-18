@@ -1,7 +1,26 @@
 .clients{
-    height: 50%;
+height: 48vh;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+}
+.img_clr{
+    height: 48vh;
     width: 100%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    border:2px solid #F0F8F7 !important;
+}
+.h_txt{
+    color: #0F4848 !important;
+}
+.card_header{
+    background-color: #EFF9F8 !important;
+}
+@media only screen and (max-width: 860px) {
+    .h{
+        font-size: 1em;
+       
+    }
+    .p{
+        font-size: 0.7em;
+    }
 }

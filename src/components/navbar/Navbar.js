@@ -17,7 +17,7 @@ export const Navbar = () => {
               <Link className={style.link} to="/">Home</Link>{"  "}
               <Link className={style.link} to="product">Product</Link>
             </Typography>
-            <Link className={style.link} to="cart">
+            <Link className={style.login_link} to="cart">
               Login
             </Link>
           </Toolbar>

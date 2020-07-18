@@ -1,29 +1,32 @@
 .container{
-    padding: 120px 15px 170px;
-    height: 140px;
-    background-color: #0F4848 !important;
-    border-bottom-right-radius: 244%;
-    border-bottom-left-radius: 24%;
-
+ position: relative;
+ width: 100%;
+ height: 78vh;
+ background: #0F4848;
+ background-size: cover;
+ background-attachment: fixed;
 }
-/* .container::before {
-    content: '';
+.wavy{
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
-    height: 100%;
-    background: linear-gradient(45deg, #0F4848, #0F4848);
-    border-radius: 0 0 50% 50%/0 0 100% 100%;
-    transform: scaleX(1.5);
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: cover;
-  } */
+    height: 143px;
+    bottom: 0;
+    left: 0;
+    background: url(../../images/wave.png);
+}
 .banner_content{
-    width: 31%;
-    padding-left: 120px;
+    padding: 10pc;
     color: white;
+    position: relative;
+}
+.txt_banner{
+    width: 60%;
+}
+.txt_banner h1{
+    font-size: 2em;
+}
+.txt_banner p{
+    font-size: 1em;
 }
 .banner_button{
     display: flex;
@@ -50,18 +53,30 @@
     font-size: 0.6875em;
 
 }
-.lot{
-    height: 770px;
-    right: -530px;
-    bottom: -140px;
-}
 .imgdiv{
-    float: right;
-    width: 37%;
-    padding-right: 134px;
+    top: 47%;
+    position: absolute;
 }
 .img_header{
-    width: 100%;
-    border-top-left-radius: 66%;
+    width: 60%;
+    float: right;
+    /* z-index: 99999; */
+    position: relative;
+}
+@media only screen and (max-width: 860px) {
+    .txt_banner{
+        width: 100%;
+    }
+    .txt_banner h1{
+        font-size: 1em;
+    }
+    .txt_banner p{
+        font-size: 0.5em;
+    }
+    .banner_content{
+        padding: 6pc;
+        color: white;
+        position: relative;
+    }
 }
 

@@ -3,7 +3,7 @@
     padding-bottom: 50px;
 }
 .container{
-    position: relative;
+    /* position: relative; */
     padding-left: 132px;
     padding-right: 15px;
 }
@@ -51,4 +51,41 @@
 }
 .services_list{
     padding-left: 25px;
+}
+.img{
+    width: 39%;
+    position: absolute;
+    right: 0;
+}
+@media only screen and (max-width: 860px) {
+    .services{
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    .container{
+        /* position: relative; */
+        /* padding-left: 132px;
+        padding-right: 15px; */
+        justify-content: center;
+        padding: 0;
+    }
+    .services{
+        max-width: 100%;
+    }
+    .services_ban_title{
+        margin: 0 0 49px;
+        font-size: 0.875em;
+    }
+    .services_ban_content{
+        margin: 0 0 45px;
+        font-size: 0.5em;
+    }
+    .img{
+        position: relative;
+        right: 0;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    
+    }
 }
